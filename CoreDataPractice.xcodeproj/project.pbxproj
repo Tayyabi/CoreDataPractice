@@ -17,6 +17,7 @@
 		A318379E2A59ADB60011810A /* CoreDataPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A318379D2A59ADB60011810A /* CoreDataPracticeTests.swift */; };
 		A31837A82A59ADB60011810A /* CoreDataPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31837A72A59ADB60011810A /* CoreDataPracticeUITests.swift */; };
 		A31837AA2A59ADB60011810A /* CoreDataPracticeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31837A92A59ADB60011810A /* CoreDataPracticeUITestsLaunchTests.swift */; };
+		A31837B82A59B48A0011810A /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31837B62A59B4890011810A /* Person+CoreDataClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		A31837A32A59ADB60011810A /* CoreDataPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A31837A72A59ADB60011810A /* CoreDataPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataPracticeUITests.swift; sourceTree = "<group>"; };
 		A31837A92A59ADB60011810A /* CoreDataPracticeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataPracticeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A31837B62A59B4890011810A /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataClass.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		A31837822A59ADAC0011810A /* CoreDataPractice */ = {
 			isa = PBXGroup;
 			children = (
+				A31837BA2A59B4990011810A /* Model */,
 				A31837832A59ADAC0011810A /* AppDelegate.swift */,
 				A31837852A59ADAC0011810A /* SceneDelegate.swift */,
 				A31837872A59ADAC0011810A /* ViewController.swift */,
@@ -128,6 +131,14 @@
 				A31837A92A59ADB60011810A /* CoreDataPracticeUITestsLaunchTests.swift */,
 			);
 			path = CoreDataPracticeUITests;
+			sourceTree = "<group>";
+		};
+		A31837BA2A59B4990011810A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A31837B62A59B4890011810A /* Person+CoreDataClass.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +274,7 @@
 			files = (
 				A31837882A59ADAC0011810A /* ViewController.swift in Sources */,
 				A31837842A59ADAC0011810A /* AppDelegate.swift in Sources */,
+				A31837B82A59B48A0011810A /* Person+CoreDataClass.swift in Sources */,
 				A31837862A59ADAC0011810A /* SceneDelegate.swift in Sources */,
 				A318378E2A59ADAC0011810A /* CoreDataPractice.xcdatamodeld in Sources */,
 			);
